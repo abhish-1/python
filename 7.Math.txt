@@ -1,0 +1,19 @@
+Types of Events;Mutually exclusive, exhaustive, independent, and dependent events; used to decide which probability rule is valid. 
+Complementary Rule;P(Aᶜ) = 1 − P(A): probability that event A does not happen. 
+Addition Rule;P(A ∪ B) = P(A) + P(B) − P(A ∩ B): probability that A or B or both occur. 
+Multiplication Rule;P(A ∩ B) = P(A)P(B | A); if A,B independent, P(A ∩ B) = P(A)P(B). 
+
+Conditional Probability;P(A | B) = P(A ∩ B) / P(B): probability of A within the restricted world where B has already occurred. 
+
+Law of Total Probability;P(A) = Σᵢ P(Bᵢ)P(A | Bᵢ) for a partition {Bᵢ}. Break A into mutually exclusive cases and add them. Mutually exclusive + exhaustive (one of them must occur)
+
+Bayes Theorem; P(A | B) = (P(B | A)P(A)) / P(B): update probability of cause A after observing evidence B. 
+
+Solving Practice Problem (3);Standard questions combining conditional probability, total probability, and Bayes theorem. 
+Random Variables;A random variable assigns a numerical value to each outcome of a random experiment. [web:34]
+Mean, Median & Mode;Mean = average, median = middle value, mode = most frequent value of data or a random variable. [web:34]
+Variance & Standard Deviation;Var(X) = E[X²] − (E[X])², σ = √Var(X): measures how spread out the values of X are. [web:34]
+Probability Distributions & its Types;Overview of uniform, binomial, Poisson, normal, etc., and when each is used to model data. [web:34]
+Binomial Distribution;P(X = k) = C(n,k) pᵏ(1−p)ⁿ⁻ᵏ: number of successes in n independent Bernoulli(p) trials. [web:34][web:36]
+Uniform Distribution;Discrete: P(X = xᵢ) = 1/n; continuous on [a,b]: f(x) = 1/(b−a): every outcome in the range is equally likely. [web:34]
+Normal Distribution;f(x) = (1/(σ√(2π))) · exp(−(x−μ)²/(2σ²)): bell‑shaped distribution for many natural and error‑type phenomena. [web:34][web:36]
